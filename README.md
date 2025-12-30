@@ -11,12 +11,12 @@ openai
 ## 1.python项目环境配置
 
 ### 1.1 环境安装
-conda create -n mini-memento python=3.11
-conda activate mini-memento
+conda create -n mini-memento python=3.11\
+conda activate mini-memento\
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
-or
+或者\
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 
 ### 1.2.运行代码
-cd examples
+cd examples\
 python feedback_loop_demo.py
